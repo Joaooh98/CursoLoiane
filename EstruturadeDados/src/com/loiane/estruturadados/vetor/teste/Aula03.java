@@ -9,12 +9,16 @@ public class Aula03 {
 
         // vetor.adicionar("elemento 01");
         // vetor.adicionar("elemento 02");
-        try {
-            vetor.to_add("elemento");
-            vetor.to_add("elemento");
-            vetor.to_add("elemento");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        vetor.to_add("elemento 01");
+        vetor.to_add("elemento 02");
+        vetor.to_add("elemento 03");
+      
+        // try {
+        //     vetor.to_add("elemento");
+        //     vetor.to_add("elemento");
+        //     vetor.to_add("elemento");
+        // } catch (Exception e) {
+        //     e.printStackTrace();
+        // }
     }
 }
