@@ -2,6 +2,8 @@ package com.loiane.estruturadados.vetor.domain;
 
 import java.util.Arrays;
 
+import javax.swing.text.Position;
+
 public class Vetor {
     private String [] elementos;
     private int tamanho;
@@ -16,7 +18,7 @@ public class Vetor {
         if (this.tamanho < this.elementos.length){
              this.elementos[this.tamanho] = elemento;
              this.tamanho++;
-             System.out.println(elemento);
+            //  System.out.println(elemento);
              return true;
         }
         System.out.println("vetor ja esta cheio");
@@ -41,6 +43,22 @@ public class Vetor {
     //     }else{
     //         throw new Exception("Vetor ja esta cheio, nao e possivel adicionar mais elementos");
     //     }
+    public String busca(int posicao){
+        if(!(posicao>=0 && posicao < tamanho)){
+            throw new IllegalArgumentException("posição invalida");
+        }
+        return this.elementos[posicao];
+    }
+
+    public int busca(String elemento){
+        for (int i = 0; i < this.tamanho; i++) {
+            if (this.elementos[i].equals(elemento)) {
+                return i;
+            }            
+        }
+        return -1;
+    }
+
     public int tamanho(){
         return this.tamanho;
         
