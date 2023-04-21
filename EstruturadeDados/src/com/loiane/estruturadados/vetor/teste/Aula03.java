@@ -6,9 +6,10 @@ public class Aula03 {
     public static void main(String[] args) {
 
         Vetor vetor = new Vetor(2);
-
+        
         // vetor.adicionar("elemento 01");
         // vetor.adicionar("elemento 02");
+        
         vetor.to_add("elemento 01");
         vetor.to_add("elemento 02");
         vetor.to_add("elemento 03");

@@ -1,5 +1,7 @@
 package com.loiane.estruturadados.vetor.domain;
 
+import java.util.Arrays;
+
 public class Vetor {
     private String [] elementos;
     private int tamanho;
@@ -12,14 +14,14 @@ public class Vetor {
 
     public boolean to_add(String elemento) {
         if (this.tamanho < this.elementos.length){
-             this.elementos[this.tamanho]= elemento;
+             this.elementos[this.tamanho] = elemento;
              this.tamanho++;
              System.out.println(elemento);
              return true;
         }
         System.out.println("vetor ja esta cheio");
         return false;
-
+    }
     
     // public void adicionar(String elemento) {
     //     for (int i = 0; i < elementos.length; i++) {
@@ -39,5 +41,26 @@ public class Vetor {
     //     }else{
     //         throw new Exception("Vetor ja esta cheio, nao e possivel adicionar mais elementos");
     //     }
+    public int tamanho(){
+        return this.tamanho;
+        
+        }
+    @Override
+    public String toString() {
+
+        StringBuilder s = new StringBuilder();
+        s.append("[");
+                
+        for (int i = 0; i < tamanho-1; i++) {
+            s.append (this.elementos[i]);
+            s.append (", ");
+        }
+            if(this.tamanho>0){
+                s.append (this.elementos[this.tamanho-1]);
+        }
+            s.append("]");
+
+        return s.toString();
     }
-}
+      
+    }
