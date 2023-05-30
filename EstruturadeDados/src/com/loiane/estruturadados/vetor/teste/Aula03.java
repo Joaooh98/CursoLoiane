@@ -10,9 +10,9 @@ public class Aula03 {
         // vetor.adicionar("elemento 01");
         // vetor.adicionar("elemento 02");
         
-        vetor.to_add("elemento 01");
-        vetor.to_add("elemento 02");
-        vetor.to_add("elemento 03");
+        vetor.toAdd("elemento 01");
+        vetor.toAdd("elemento 02");
+        vetor.toAdd("elemento 03");
       
         // try {
         //     vetor.to_add("elemento");

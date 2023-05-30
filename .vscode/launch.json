@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Aula01",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula01",
+            "projectName": "CursoLoiane_d3c4b385"
+        },
+        {
+            "type": "java",
+            "name": "Aula02",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula02",
+            "projectName": "CursoLoiane_d3c4b385"
+        },
+        {
+            "type": "java",
+            "name": "Aula03",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula03",
+            "projectName": "CursoLoiane_d3c4b385"
+        },
+        {
+            "type": "java",
+            "name": "Aula04",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula04",
+            "projectName": "CursoLoiane_d3c4b385"
+        },
+        {
+            "type": "java",
+            "name": "Aula05",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula05",
+            "projectName": "CursoLoiane_d3c4b385"
+        },
+        {
+            "type": "java",
+            "name": "Aula06",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula06",
+            "projectName": "CursoLoiane_d3c4b385"
+        },
+        {
+            "type": "java",
+            "name": "Aula07",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula07",
+            "projectName": "CursoLoiane_d3c4b385"
+        }
+    ]
+}

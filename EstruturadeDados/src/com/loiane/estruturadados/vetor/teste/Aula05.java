@@ -7,9 +7,9 @@ public class Aula05 {
           
         Vetor vetor = new Vetor(10);
 
-        vetor.to_add("elemento 01");
-        vetor.to_add("elemento 02");
-        vetor.to_add("elemento 03");
+        vetor.toAdd("elemento 01");
+        vetor.toAdd("elemento 02");
+        vetor.toAdd("elemento 03");
 
         System.out.println(vetor.busca(0));
         System.out.println(vetor.busca(15)); // representa uma execeção
