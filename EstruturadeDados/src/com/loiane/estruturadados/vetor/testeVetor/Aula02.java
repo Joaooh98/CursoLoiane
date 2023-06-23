@@ -1,10 +1,10 @@
-package com.loiane.estruturadados.vetor.teste;
+package com.loiane.estruturadados.vetor.testeVetor;
 
 import com.loiane.estruturadados.vetor.domain.Vetor;
 @SuppressWarnings("all")
 public class Aula02 {
     public static void main(String[] args) {
-        Vetor vetor = new Vetor(5);
+        var vetor = new Vetor(5);
         int i = 0;
         i++;
 

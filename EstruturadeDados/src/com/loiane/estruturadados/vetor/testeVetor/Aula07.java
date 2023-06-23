@@ -1,10 +1,10 @@
-package com.loiane.estruturadados.vetor.teste;
+package com.loiane.estruturadados.vetor.testeVetor;
 
 import com.loiane.estruturadados.vetor.domain.Vetor;
 
-public class Aula08 {
+public class Aula07 {
     public static void main(String[] args) {
-        var vetor = new Vetor(3);
+        var vetor = new Vetor(10);
 
         vetor.toAdd("B");
         vetor.toAdd("C");
@@ -13,5 +13,14 @@ public class Aula08 {
         vetor.toAdd("G");
         
         System.out.println(vetor);
+
+        vetor.toAdd(0, "A");
+
+        System.out.println(vetor);
+
+        vetor.toAdd(3,"D");
+
+        System.out.println(vetor);
+
     }
 }
