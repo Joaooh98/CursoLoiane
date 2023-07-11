@@ -1,4 +1,4 @@
-package com.loiane.estruturadados.vetor.testeVetor;
+package com.loiane.estruturadados.vetor.Vetor;
 
 import com.loiane.estruturadados.vetor.domain.Vetor;
 

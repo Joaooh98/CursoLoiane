@@ -1,4 +1,4 @@
-package com.loiane.estruturadados.vetor.testeVetor;
+package com.loiane.estruturadados.vetor.Vetor;
 
 public class Aula01 {
     public static void main(String[] args) {

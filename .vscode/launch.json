@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula11",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.testeVetor.Aula11",
+            "projectName": "CursoLoiane_ee937813"
+        },
+        {
+            "type": "java",
             "name": "Aula10",
             "request": "launch",
             "mainClass": "com.loiane.estruturadados.vetor.testeVetor.Aula10",
