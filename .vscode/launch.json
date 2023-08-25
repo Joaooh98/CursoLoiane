@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.loiane.javaBasico.loianeSynchronized.Test",
+            "projectName": "CursoLoiane_4f05fd07"
+        },
+        {
+            "type": "java",
+            "name": "OrderController",
+            "request": "launch",
+            "mainClass": "com.loiane.javaBasico.Thread.test.OrderController",
+            "projectName": "CursoLoiane_4f05fd07"
+        },
+        {
+            "type": "java",
             "name": "Aula11",
             "request": "launch",
             "mainClass": "com.loiane.estruturadados.vetor.testeVetor.Aula11",

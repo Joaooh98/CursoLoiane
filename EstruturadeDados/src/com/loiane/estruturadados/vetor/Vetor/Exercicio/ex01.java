@@ -1,7 +1,7 @@
 package com.loiane.estruturadados.vetor.Vetor.Exercicio;
 
 import com.loiane.estruturadados.vetor.domain.DomainExecicos.ListaEX;
-
+@SuppressWarnings("all")
 public class ex01 {
     public static void main(String[] args) {
         ListaEX<String> lista = new ListaEX(5);
