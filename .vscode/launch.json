@@ -6,86 +6,31 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OrderControllerwithThreads",
+            "request": "launch",
+            "mainClass": "com.loiane.javaBasico.Thread.test.OrderControllerwithThreads",
+            "projectName": "CursoLoiane_604df516"
+        },
+        {
+            "type": "java",
+            "name": "OrderControllerTwo",
+            "request": "launch",
+            "mainClass": "com.loiane.javaBasico.Thread.test.OrderControllerTwo",
+            "projectName": "CursoLoiane_604df516"
+        },
+        {
+            "type": "java",
+            "name": "ExemploSynchronized",
+            "request": "launch",
+            "mainClass": "com.loiane.javaBasico.Thread.test.ExemploSynchronized",
+            "projectName": "CursoLoiane_604df516"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "com.loiane.javaBasico.loianeSynchronized.Test",
-            "projectName": "CursoLoiane_4f05fd07"
-        },
-        {
-            "type": "java",
-            "name": "OrderController",
-            "request": "launch",
-            "mainClass": "com.loiane.javaBasico.Thread.test.OrderController",
-            "projectName": "CursoLoiane_4f05fd07"
-        },
-        {
-            "type": "java",
-            "name": "Aula11",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.testeVetor.Aula11",
-            "projectName": "CursoLoiane_ee937813"
-        },
-        {
-            "type": "java",
-            "name": "Aula10",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.testeVetor.Aula10",
-            "projectName": "CursoLoiane_ee937813"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Aula01",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula01",
-            "projectName": "CursoLoiane_d3c4b385"
-        },
-        {
-            "type": "java",
-            "name": "Aula02",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula02",
-            "projectName": "CursoLoiane_d3c4b385"
-        },
-        {
-            "type": "java",
-            "name": "Aula03",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula03",
-            "projectName": "CursoLoiane_d3c4b385"
-        },
-        {
-            "type": "java",
-            "name": "Aula04",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula04",
-            "projectName": "CursoLoiane_d3c4b385"
-        },
-        {
-            "type": "java",
-            "name": "Aula05",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula05",
-            "projectName": "CursoLoiane_d3c4b385"
-        },
-        {
-            "type": "java",
-            "name": "Aula06",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula06",
-            "projectName": "CursoLoiane_d3c4b385"
-        },
-        {
-            "type": "java",
-            "name": "Aula07",
-            "request": "launch",
-            "mainClass": "com.loiane.estruturadados.vetor.teste.Aula07",
-            "projectName": "CursoLoiane_d3c4b385"
+            "projectName": "CursoLoiane_604df516"
         }
     ]
 }
