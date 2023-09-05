@@ -13,6 +13,11 @@ public class Products {
         this.statusReserve = statusReserve;
     }
 
+    @Override
+    public String toString() {
+        return "Products [id=" + id + ", name=" + name + ", statusReserve=" + statusReserve + "]";
+    }
+
     public Integer getId() {
         return id;
     }

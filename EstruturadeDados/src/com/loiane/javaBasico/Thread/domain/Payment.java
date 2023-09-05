@@ -8,14 +8,20 @@ public class Payment {
 
     private InstallmentTitle installmentTitle;
 
-    private Order idOrder;
-
-    public Payment(Integer id, String typePayment, InstallmentTitle installmentTitle, Order idOrder) {
+    public Payment(Integer id, String typePayment, InstallmentTitle installmentTitle) {
         this.id = id;
         this.TypePayment = typePayment;
         this.installmentTitle = installmentTitle;
-        this.idOrder = idOrder;
+
     }
+
+    
+    @Override
+    public String toString() {
+        return "Payment [id=" + id + ", TypePayment=" + TypePayment + ", installmentTitle=" + installmentTitle
+                + "]";
+    }
+
 
     public Integer getId() {
         return id;
@@ -39,14 +45,6 @@ public class Payment {
 
     public void setInstallmentTitle(InstallmentTitle installmentTitle) {
         this.installmentTitle = installmentTitle;
-    }
-
-    public Order getIdOrder() {
-        return idOrder;
-    }
-
-    public void setIdOrder(Order idOrder) {
-        this.idOrder = idOrder;
     }
     
 }

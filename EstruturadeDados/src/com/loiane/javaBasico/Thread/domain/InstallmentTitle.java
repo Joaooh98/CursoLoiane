@@ -7,6 +7,11 @@ public class InstallmentTitle {
     public InstallmentTitle(Integer id) {
         this.id = id;
     }
+    
+    @Override
+    public String toString() {
+        return "InstallmentTitle [id=" + id + "]";
+    }
 
     public Integer getId() {
         return id;
