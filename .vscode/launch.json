@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OrderControllerTwo",
+            "request": "launch",
+            "mainClass": "com.loiane.javaBasico.Thread.test.OrderControllerTwo",
+            "projectName": "CursoLoiane_4f05fd07"
+        },
+        {
+            "type": "java",
             "name": "TestOrderConf",
             "request": "launch",
             "mainClass": "com.loiane.javaBasico.Thread.test.TestOrderConf",
