@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex05",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.Vetor.Exercicio.ex05",
+            "projectName": "CursoLoiane_4f05fd07"
+        },
+        {
+            "type": "java",
+            "name": "ex04",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.Vetor.Exercicio.ex04",
+            "projectName": "CursoLoiane_4f05fd07"
+        },
+        {
+            "type": "java",
+            "name": "ex03",
+            "request": "launch",
+            "mainClass": "com.loiane.estruturadados.vetor.Vetor.Exercicio.ex03",
+            "projectName": "CursoLoiane_4f05fd07"
+        },
+        {
+            "type": "java",
             "name": "OrderControllerTwo",
             "request": "launch",
             "mainClass": "com.loiane.javaBasico.Thread.test.OrderControllerTwo",
