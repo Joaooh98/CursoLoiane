@@ -14,6 +14,9 @@ public class Contato {
         this.email = email;
     }
 
+    public Contato() {
+    }
+
     @Override
     public String toString() {
         return "Contato [name= " + name + ", telefone= " + telefone + ", email= " + email + "]";
